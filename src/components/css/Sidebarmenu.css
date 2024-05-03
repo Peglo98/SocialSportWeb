@@ -1,0 +1,26 @@
+.sidebar {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.menu-item:hover {
+    color: #aaa;
+}
+
+.menu-item i {
+    margin-right: 8px; /* Space between icon and text */
+}
